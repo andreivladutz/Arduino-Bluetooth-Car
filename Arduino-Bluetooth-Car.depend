@@ -460,18 +460,24 @@
 	"pins_arduino.h"
 	"twi.h"
 
-1550149200 source:e:\03_facultate\anul doi\sem 1\robotica\arduino car\arduino-bluetooth-car\motor.cpp
+1550902368 source:e:\03_facultate\anul doi\sem 1\robotica\arduino car\arduino-bluetooth-car\motor.cpp
 	"Motor.h"
 
-1550149172 e:\03_facultate\anul doi\sem 1\robotica\arduino car\arduino-bluetooth-car\motor.h
+1550900960 e:\03_facultate\anul doi\sem 1\robotica\arduino car\arduino-bluetooth-car\motor.h
 	<Arduino.h>
 
-1550150130 source:e:\03_facultate\anul doi\sem 1\robotica\arduino car\arduino-bluetooth-car\chassis.cpp
+1550900936 source:e:\03_facultate\anul doi\sem 1\robotica\arduino car\arduino-bluetooth-car\chassis.cpp
 	"Chassis.h"
 
-1550150059 e:\03_facultate\anul doi\sem 1\robotica\arduino car\arduino-bluetooth-car\chassis.h
+1550900910 e:\03_facultate\anul doi\sem 1\robotica\arduino car\arduino-bluetooth-car\chassis.h
 	"Motor.h"
 
-1550152021 source:e:\03_facultate\anul doi\sem 1\robotica\arduino car\arduino-bluetooth-car\sketch.cpp
+1550897980 source:e:\03_facultate\anul doi\sem 1\robotica\arduino car\arduino-bluetooth-car\sketch.cpp
+	"CarBTController.h"
+
+1550897973 e:\03_facultate\anul doi\sem 1\robotica\arduino car\arduino-bluetooth-car\carbtcontroller.h
 	"Chassis.h"
+
+1550900598 source:e:\03_facultate\anul doi\sem 1\robotica\arduino car\arduino-bluetooth-car\carbtcontroller.cpp
+	"CarBTController.h"
 

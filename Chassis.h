@@ -27,6 +27,7 @@ public:
     void goBackward(int spd, int plusLeft = 0, int plusRight = 0);
     void spinLeft(int spd);
     void spinRight(int spd);
+    void stop();
 };
 
 #endif // CHASSIS_H_INCLUDED

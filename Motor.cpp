@@ -22,6 +22,19 @@ void DCMotor :: goBackward() {
     analogWrite(ENABLE_PIN, speed);
 }
 
+void DCMotor :: stop() {
+    speed = 0;
+
+    digitalWrite(IN_FORWARD, LOW);
+    digitalWrite(IN_BACKWARD, LOW);
+
+    analogWrite(ENABLE_PIN, speed);
+}
+
 void DCMotor :: setSpeed(int spd) {
     speed = spd;
+}
+
+int DCMotor :: getSpeed() {
+    return speed;
 }

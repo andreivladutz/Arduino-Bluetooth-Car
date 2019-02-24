@@ -14,8 +14,10 @@ public:
     DCMotor(const byte enable, const byte in_forward, const byte in_backward);
     void goForward();
     void goBackward();
+    void stop();
 
     void setSpeed(int speed);
+    int getSpeed();
 };
 
 #endif // MOTOR_H_INCLUDED

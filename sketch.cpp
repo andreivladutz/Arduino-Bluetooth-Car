@@ -1,18 +1,16 @@
-#include "Chassis.h"
+#include "CarBTController.h"
 
-Chassis *c;
+CarBTController btControl;
 
 void setup()
 {
-	Serial.begin(9600);
-    c = new Chassis;
+    btControl.init();
+    btControl.enableCommunication();
 }
 
-unsigned long time = 0;
+
 
 void loop()
 {
-    if (millis() - time < 500) {
-        c->goForward(70);
-    }
+    btControl.comunicate();
 }

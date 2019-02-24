@@ -59,3 +59,8 @@ void Chassis :: spinRight(int spd) {
     leftMotor.goForward();
     rightMotor.goBackward();
 }
+
+void Chassis :: stop() {
+    leftMotor.stop();
+    rightMotor.stop();
+}
