@@ -44,11 +44,14 @@ The Arduino Bluetooth Car, as the name suggests is an Arduino-based car remote c
    The Android joystick application is made with HTML5, all the logic and drawing is made with Javascript and everything is<br/>
    wrapped up in a native app with Apache Cordova.<br/>
    The bluetooth communication is handled by the BluetoothSerial plugin (https://github.com/don/BluetoothSerial) for Cordova.<br/>
-   The main classes used in the application are:<br/>
+   All the code for the app is found in joystick_app/www/ folder. The main classes used in the application are:<br/>
+  <br/>
+found in the index.js file:
 - **UI**<br/>
   *Handles the BT devices menu and the connected status bar*  
 - **BTManager**<br/>
   *This class is responsible for the bluetooth connection, searching of available devices, and managing lost connections.<br/>*
+found in the joystick.js file:
 - **controlsUI and JoystickElement**<br/>
   *These classes handle the canvas HTML element on which the joystick is drawn and the joystick itself.<br/>*
   *The JoystickElement also sends coordinates in the sendBTDetails() method via the bluetoothSerial.<br/>*
