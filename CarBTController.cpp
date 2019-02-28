@@ -13,7 +13,7 @@ void CarBTController :: CarBTController :: comunicate() {
     /*
         We are receiving values between -255 and 255
     */
-    if (Serial.available() <= 0)
+    if (status == INACTIVE || Serial.available() <= 0)
         return;
 
     size_t bytesReadX = 0, bytesReadY = 0;
